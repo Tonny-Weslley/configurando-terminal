@@ -11,7 +11,7 @@ Para evitar ter que sempre digitar a sua senha quando usar o comando sudo, acons
 
     myuser ALL=(ALL) NOPASSWD: ALL
 alterando o myuser pelo seu nome de usuário
-[imagem sudoers]
+<img src="images/sudoers.png">
    
 
 
@@ -43,8 +43,8 @@ você pode baixar a Fira code através do seu repositório oficial: https://gith
 Após baixar, basta extrair o conteúdo e instalar as fontes presentes na pasta *ttf*.
 
 O próximo passo é definir a Fira code como fonte padrão da aplicação do terminal.
-[Imagem onde estão as configurações]
-[imagem das configurações]
+<img src="images/Terminal config path.png">
+<img src="Terminal Config.png">
 
 ## 3 - Instalando Tema Spaceship
 Existe uma infinidade de temas para o zsh, mas particularmente, meu preferido é o [spaceship](https://spaceship-prompt.sh/), para instalar o tema, basta executar as seguintes linhas de comando em seu terminal:
@@ -63,7 +63,7 @@ nano ~/.zshrc
 ```
 
 procure o campo ZSH_THEME e altere seu valor para spaceship.
-[imagem do ZSH_THEME="spaceship"]
+<img src="spaceship theme.png">
 
 
 ## 3 - Instalando Extensões
@@ -80,4 +80,4 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:
 Após isso, basta voltar no arquivo .zshrc, procurar por plugins e adicionar a seguinte linha dentro dos parênteses:
 
     zsh-autosuggestions zsh-syntax-highlighting
-[imagem do .zshrc pluguins]
+<img src="zsh_plugins.png">
