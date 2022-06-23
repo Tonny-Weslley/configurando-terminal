@@ -44,7 +44,7 @@ Após baixar, basta extrair o conteúdo e instalar as fontes presentes na pasta 
 
 O próximo passo é definir a Fira code como fonte padrão da aplicação do terminal.
 <img src="images/Terminal config path.png">
-<img src="Terminal Config.png">
+<img src="images/Terminal Config.png">
 
 ## 3 - Instalando Tema Spaceship
 Existe uma infinidade de temas para o zsh, mas particularmente, meu preferido é o [spaceship](https://spaceship-prompt.sh/), para instalar o tema, basta executar as seguintes linhas de comando em seu terminal:
@@ -63,7 +63,7 @@ nano ~/.zshrc
 ```
 
 procure o campo ZSH_THEME e altere seu valor para spaceship.
-<img src="spaceship theme.png">
+<img src="images/spaceship theme.png">
 
 
 ## 3 - Instalando Extensões
@@ -80,4 +80,4 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:
 Após isso, basta voltar no arquivo .zshrc, procurar por plugins e adicionar a seguinte linha dentro dos parênteses:
 
     zsh-autosuggestions zsh-syntax-highlighting
-<img src="zsh_plugins.png">
+<img src="images/zsh_plugins.png">
